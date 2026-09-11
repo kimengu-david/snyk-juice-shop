@@ -22,6 +22,7 @@ resource "aws_security_group" "km_rds_sg" {
   #  protocol    = "tcp"
   #  cidr_blocks = ["0.0.0.0/0"]
   #}
+  # test comment
 
   # outbound internet access
   egress {

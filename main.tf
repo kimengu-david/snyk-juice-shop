@@ -17,7 +17,7 @@ resource "aws_security_group" "km_rds_sg" {
 
   # HTTP access from anywhere
   ingress {
-    from_port   = 5434
+    from_port   = 8080
     to_port     = 5432
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
